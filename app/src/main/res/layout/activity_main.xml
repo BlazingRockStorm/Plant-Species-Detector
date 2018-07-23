@@ -7,18 +7,25 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/camera"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Capture Leaf"
+        android:text="@string/camera_button"
+        android:id="@+id/camera"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:textColor="#ffd3ffe5"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="119dp"
         tools:layout_editor_absoluteY="427dp" />
 
     <ImageView
+        android:id="@+id/capturedImage"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:id="@+id/capturedImage"
-        android:layout_above="@+id/camera">
+        android:layout_above="@+id/camera"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="50dp">
 
     </ImageView>
 </android.support.constraint.ConstraintLayout>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Plant Species Detector</string>
+    <string name="camera_button">&#xf030; Capture Leaf</string>
 </resources>
